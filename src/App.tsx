@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React, {Component} from 'react';
+import Main from "./main";
+import { connect } from "react-redux";
+import getRequest from "./actions/getRequest";
+import Header from './header';
+export class App extends Component<any, any>{
+  constructor(props: any) {
+    super(props); 
+    this.props.getAllBooks();
+}
+render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header/>
+    <Main />
+    
+    </>
   );
 }
-
-export default App;
+}
+function mapStateToProps(state:any) {
+      return {
+       books: state.selectedBooks.val,
+       history: state.history
+      };
+    }
+    
+    const mapDispatchToProps = (dispatch:any) => {
+      return {
+      getAllBooks: ()=> dispatch(getRequest()),
+      dispatch
+      };
+    }
+    export default connect(mapStateToProps, mapDispatchToProps)(App);

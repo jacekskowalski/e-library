@@ -1,0 +1,357 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 875,
+    "items": [
+      {
+        "kind": "books#volume",
+        "id": "djtjAgAAQBAJ",
+        "etag": "nt3PUKv7Rak",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/djtjAgAAQBAJ",
+        "volumeInfo": {
+          "title": "HTML, XHTML i CSS. Praktyczne projekty. Wydanie II",
+          "authors": [
+            "Włodzimierz Gajda"
+          ],
+          "publisher": "Helion",
+          "publishedDate": "2011-10-26",
+          "description": "Drugie wydanie książki \"HTML, XHTML i CSS. Praktyczne projekty\" pozwoli Ci od podszewki poznać tajniki projektowania naprawdę przemyślanych stron internetowych, uwzględniających potrzeby ich użytkowników. Dowiesz się, jak zachować poprawność składniową XHTML i CSS. Poznasz semantykę kodu XHTML i opanujesz metodologię pracy zgodnej ze standardami. Zrozumiesz, dlaczego ważne jest zapewnienie dostępności Twoich stron dla osób niepełnosprawnych i co zrobić, by wyszukiwarki mogły bez trudu przeanalizować oraz zaklasyfikować zawartość serwisu. Nauczysz się wybierać czcionki, tło, projektować wygodny interfejs i poszczególne fragmenty strony, a także zapisywać szczególnie udane projekty w formie szablonów.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9788324637133"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "8324637133"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 512,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.4.3.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=djtjAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=djtjAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "pl",
+          "previewLink": "http://books.google.pl/books?id=djtjAgAAQBAJ&pg=PA479&dq=html&hl=&cd=1&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=djtjAgAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=djtjAgAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "PL",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 62.9,
+            "currencyCode": "PLN"
+          },
+          "retailPrice": {
+            "amount": 42.77,
+            "currencyCode": "PLN"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=djtjAgAAQBAJ&rdid=book-djtjAgAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 62900000,
+                "currencyCode": "PLN"
+              },
+              "retailPrice": {
+                "amountInMicros": 42770000,
+                "currencyCode": "PLN"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "PL",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.pl/books/download/HTML_XHTML_i_CSS_Praktyczne_projekty_Wyd-sample-epub.acsm?id=djtjAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.pl/books/download/HTML_XHTML_i_CSS_Praktyczne_projekty_Wyd-sample-pdf.acsm?id=djtjAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=djtjAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Pamiętaj jednak, że CDATA nie może się pojawić w dokumencie \u003cb\u003eHTML\u003c/b\u003e (ani w \u003cbr\u003e\nXHTML wysyłanym jako text/\u003cb\u003ehtml\u003c/b\u003e). Jeżeli zastosujesz CDATA w statycznym \u003cbr\u003e\ndokumencie .\u003cb\u003ehtml\u003c/b\u003e, to bez względu na to, czy go przygotujesz w języku \u003cb\u003eHTML\u003c/b\u003e, czy\u003cbr\u003e\n&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "MmnlvQEACAAJ",
+        "etag": "1YlBN2Y8hPo",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/MmnlvQEACAAJ",
+        "volumeInfo": {
+          "title": "HTML i CSS",
+          "subtitle": "zaprojektuj i zbuduj witrynę WWW : podręcznik Front-End Developera",
+          "authors": [
+            "Jon Duckett"
+          ],
+          "publishedDate": "2018",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "8328344807"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9788328344808"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "printType": "BOOK",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "language": "un",
+          "previewLink": "http://books.google.pl/books?id=MmnlvQEACAAJ&dq=html&hl=&cd=2&source=gbs_api",
+          "infoLink": "http://books.google.pl/books?id=MmnlvQEACAAJ&dq=html&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/HTML_i_CSS.html?hl=&id=MmnlvQEACAAJ"
+        },
+        "saleInfo": {
+          "country": "PL",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "PL",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=MmnlvQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "YwEQoMAJjj8C",
+        "etag": "l8ci66Oxj8o",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/YwEQoMAJjj8C",
+        "volumeInfo": {
+          "title": "HTML Web Design in 7 Days",
+          "publisher": "Siamak Sarmady",
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "printType": "BOOK",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.1.0.0.preview.1",
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=YwEQoMAJjj8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=YwEQoMAJjj8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.pl/books?id=YwEQoMAJjj8C&pg=PT3&dq=html&hl=&cd=3&source=gbs_api",
+          "infoLink": "http://books.google.pl/books?id=YwEQoMAJjj8C&dq=html&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/HTML_Web_Design_in_7_Days.html?hl=&id=YwEQoMAJjj8C"
+        },
+        "saleInfo": {
+          "country": "PL",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "PL",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=YwEQoMAJjj8C&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "eb pages are ordinary files with “.htm” or “.\u003cb\u003ehtml\u003c/b\u003e” file extensions. They contain a \u003cbr\u003e\ncode named &quot;hyper text mark-up language&quot; or \u003cb\u003ehtml\u003c/b\u003e. This codes when viewed in a \u003cbr\u003e\nbrowser like Internet Explorer or Firefox or other web browsers will be seen as a&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "4ohFAAAAYAAJ",
+        "etag": "DD/lFl/7tu4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/4ohFAAAAYAAJ",
+        "volumeInfo": {
+          "title": "HTML Master Reference",
+          "authors": [
+            "Heather Williamson"
+          ],
+          "publisher": "John Wiley & Sons Incorporated",
+          "publishedDate": "1999-06-16",
+          "description": "Provides developers with quick and easy access to the latest information on developing with HTML and includes a CD-ROM containing direct access to all the examples and additional software that can be used to create documents efficiently. Original. (Intermediate).",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "UVA:X004279595"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 1359,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.1.1.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=4ohFAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=4ohFAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.pl/books?id=4ohFAAAAYAAJ&q=html&dq=html&hl=&cd=4&source=gbs_api",
+          "infoLink": "http://books.google.pl/books?id=4ohFAAAAYAAJ&dq=html&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/HTML_Master_Reference.html?hl=&id=4ohFAAAAYAAJ"
+        },
+        "saleInfo": {
+          "country": "PL",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "PL",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=4ohFAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "\u003cb\u003eHTML\u003c/b\u003e Master Reference \u003cb\u003eHTML\u003c/b\u003e Master Reference \u003cb\u003eHTML\u003c/b\u003e Master Reference \u003cbr\u003e\n\u003cb\u003eHTML\u003c/b\u003e Master Reference \u003cb\u003eHTML\u003c/b\u003e Master Reference \u003cb\u003eHTML\u003c/b\u003e Master Reference \u003cbr\u003e\n\u003cb\u003eHTML\u003c/b\u003e Master Reference \u003cb\u003eHTML\u003c/b\u003e Master Reference \u003cb\u003eHTML\u003c/b\u003e Master Reference \u003cbr\u003e\n\u003cb\u003eHTML\u003c/b\u003e Master&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "wzQKcUgZ52UC",
+        "etag": "lnDBIToGjKc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/wzQKcUgZ52UC",
+        "volumeInfo": {
+          "title": "HTML and CGI Unleashed",
+          "authors": [
+            "John December",
+            "Mark Ginsburg"
+          ],
+          "publisher": "Sams",
+          "publishedDate": "1995",
+          "description": "A guide to developing professional information systems on the World Wide Web assumes basic programming competence, covers a full range of tools--HTML, CGI, Perl, C--and shows programmers how to use them to create commercial-level Web applications. Original. (Advanced).",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_10",
+              "identifier": "0672307456"
+            },
+            {
+              "type": "ISBN_13",
+              "identifier": "9780672307454"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 830,
+          "printType": "BOOK",
+          "categories": [
+            "Computers"
+          ],
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.0.3.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=wzQKcUgZ52UC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=wzQKcUgZ52UC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.pl/books?id=wzQKcUgZ52UC&q=html&dq=html&hl=&cd=5&source=gbs_api",
+          "infoLink": "http://books.google.pl/books?id=wzQKcUgZ52UC&dq=html&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/HTML_and_CGI_Unleashed.html?hl=&id=wzQKcUgZ52UC"
+        },
+        "saleInfo": {
+          "country": "PL",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "PL",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=wzQKcUgZ52UC&hl=&printsec=frontcover&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Another approach to helping people create \u003cb\u003eHTML\u003c/b\u003e documents is fill-in templates. \u003cbr\u003e\nThese can give people a way for people to quickly make a home page and get \u003cbr\u003e\nstarted with \u003cb\u003eHTML\u003c/b\u003e. One template application is called the Web Page Builder at&nbsp;..."
+        }
+      }
+    ]
+  }

@@ -8,11 +8,19 @@
     "@testing-library/user-event": "^12.8.3",
     "@types/jest": "^26.0.23",
     "@types/node": "^12.20.15",
+    "@types/node-sass": "^4.11.1",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.7",
+    "@types/react-redux": "^7.1.16",
+    "@types/redux": "^3.6.0",
+    "axios": "^0.21.1",
+    "json-server": "^0.16.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
     "react-scripts": "4.0.3",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
     "typescript": "^4.3.2",
     "web-vitals": "^1.1.2"
   },
@@ -20,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "json-server": "npx json-server --watch db.json --port 7100",
+    "watch:sass": "node-sass ./src/sass/main.scss ./src/css/style.css -w",
+    "app": "npm-run-all --parallel json-server start watch:sass"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +49,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "npm-run-all": "^4.1.5"
   }
 }

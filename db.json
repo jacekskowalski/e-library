@@ -1,0 +1,44 @@
+{
+  "books": [
+      {    "id":"1",
+          "title": "Zaginiony symbol",
+          "author": "Dan Brown",
+          "publishing_date": "2020-07-15",
+          "pages": 624,
+          "description": "Robert Langdon, światowej sławy specjalista od symboli, zostaje niespodziewanie wezwany do Waszyngtonu.",
+          "thumbnail": "./images/zaginiony_symbol.jpg"
+      },
+      {    "id":"2",
+          "title": "Początek",
+          "author": "Dan Brown",
+          "publishing_date": "2018-11-14",
+          "pages": 576,
+          "description": "Robert Langdon, profesor Uniwersytetu Harvarda, specjalista w dziedzinie ikonologii religijnej i symboli, przybywa do Muzeum Guggenheima w Bilbao, gdzie ma dojść do ujawnienia odkrycia, które „na zawsze zmieni oblicze nauki.",
+          "thumbnail": "./images/poczatek.jpg"
+      },
+      {   "id":"3",
+          "title": "Kod Leonarda da Vinci",
+          "author": "Dan Brown",
+          "publishing_date": "2020-08-12",
+          "pages": 568,
+          "description": "Jacques Saunière, kustosz Luwru, zostaje zamordowany. Francuska policja o pomoc w śledztwie zwraca się do Roberta Langdona, specjalisty od symboli.",
+          "thumbnail": "./images/da_vinci_code.jpg"
+      },
+      {    "id":"4",
+          "title": "Zwodniczy punkt",
+          "author": "Dan Brown",
+          "publishing_date": "2020-07-15",
+          "pages": 528,
+          "description": "Najnowszy satelita NASA wykrywa niezwykły obiekt w lodowcach Arktyki, meteoryt ze śladami życia pozaziemskiego. Biały Dom przygotowuje się do poinformowania o odkryciu światowej opinii publicznej",
+          "thumbnail": "./images/zwodniczy_punkt.jpg"
+      },
+      {   "id":"5",
+          "title": "Anioły i demony",
+          "author": "Dan Brown",
+          "publishing_date": "2020-07-15",
+          "pages": 560,
+          "description": "Langdon zostaje pilnie wezwany do położonego koło Genewy centrum badań jądrowych CERN. Jego zadanie – zidentyfikować zagadkowy wzór wypalony na ciele zamordowanego fizyka.",
+          "thumbnail": "./images/anioly_i_demony.jpg"
+      }
+  ]
+}

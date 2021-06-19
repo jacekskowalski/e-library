@@ -1,0 +1,34 @@
+.main {
+    margin-top: 7rem;
+  }
+  
+  .main__section {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 39rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  @media screen and (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      width: 60rem;
+      height: 16rem;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .main__section {
+      flex-direction: row;
+      width: 80rem;
+    }
+  }
+  

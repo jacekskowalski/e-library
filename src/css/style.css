@@ -1,0 +1,209 @@
+.main {
+  margin-top: 7rem; }
+
+.main__section {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 39rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    width: 60rem;
+    height: 16rem; } }
+
+@media screen and (min-width: 1024px) {
+  .main__section {
+    flex-direction: row;
+    width: 80rem; } }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 10px; }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif; }
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #000; }
+
+.padding-left {
+  padding-left: 1rem; }
+
+.margin-small {
+  margin-top: 1rem; }
+
+.margin-xs {
+  margin-top: 0.5rem; }
+
+.font-small {
+  font-size: 1.2rem; }
+
+.btn--red {
+  background-color: #F60B0B; }
+
+.btn--green {
+  background-color: #55c57a; }
+
+.text--center {
+  text-align: center; }
+
+.headline--large {
+  font-size: 3rem; }
+
+.header {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 6rem;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+  .header__nav {
+    width: 80%;
+    max-width: 124rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 5rem;
+    margin-left: 3rem; }
+  .header__logo {
+    padding-top: 2rem;
+    display: inline-block;
+    background: #fff;
+    font: 700 37px/30px 'Open Sans', sans-serif;
+    color: #222;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    letter-spacing: 2px; }
+  .header__logo:hover {
+    color: #222; }
+  .header__logo:after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 65%;
+    height: 15px;
+    z-index: -1;
+    -webkit-transition: width 0.3s ease-out;
+    -o-transition: width 0.3s ease-out;
+    transition: width 0.3s ease-out;
+    background: linear-gradient(45deg, #ff5b1e, #ff0068);
+    background-image: linear-gradient(45deg, #ff5b1e, #ff0068); }
+
+.container {
+  font-size: 1.6rem;
+  margin-bottom: 2rem; }
+  .container__img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+    height: 100%; }
+  .container__text {
+    width: 21rem;
+    flex: 1;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-right: 1rem; }
+
+.text__input:not(.text--small) {
+  font-size: 1.6rem; }
+
+.button_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1.5rem; }
+
+.btn {
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.2rem;
+  color: white;
+  margin-left: 1rem;
+  cursor: pointer; }
+
+.text__input {
+  border-radius: 4px;
+  border: 1px solid #e5e5e5; }
+
+.first {
+  width: 100%; }
+
+input {
+  padding-left: 1rem; }
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 30rem;
+  font-size: 1.2rem; }
+  .table__headline {
+    width: 10rem; }
+  .table__cell {
+    width: 10rem;
+    text-align: center; }
+
+.headline {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold; }
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    width: 50rem; }
+    .container__img {
+      display: block;
+      width: 9rem;
+      height: 9rem; }
+    .container__thumbnail {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .container__text {
+      margin-top: auto;
+      margin-bottom: auto; }
+  .button_box {
+    margin-left: auto;
+    margin-top: 0; } }
+
+@media screen and (min-width: 1024px) {
+  .table {
+    width: 25rem; } }
